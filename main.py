@@ -63,13 +63,22 @@ print("floor division", r)
 #     else:
 #         print(i)
 
-list = [1,2,3,4,5,6,7,8,9,0]
-k=''
-print(list)
-for i in list:
-    print(i)
-    k+=','+str(i)
-print(k)
+# list = [1,2,3,4,5,6,7,8,9,0]
+# k=''
+# print(list)
+# for i in list:
+#     print(i)
+#     k+=','+str(i)
+# print(k)
+
+
+# def helloworld(a,b):
+#     print("i am hello world function")
+#     c=a+b
+#     print("sum of a+b is :",c)
+#
+# helloworld(4,6)
+
 
 
 
