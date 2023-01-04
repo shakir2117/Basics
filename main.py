@@ -72,12 +72,16 @@ print("floor division", r)
 # print(k)
 
 
-# def helloworld(a,b):
-#     print("i am hello world function")
-#     c=a+b
-#     print("sum of a+b is :",c)
-#
-# helloworld(4,6)
+def helloworld(a,b):  # defining the function with local variable
+    print("i am hello world function") #creation a argument inside function
+    c=a+b
+    print("sum of a+b is :",c)
+    return c #return value of c
+
+
+x=helloworld(4,6) # calling the function
+# to call the function with the print statement the variable like x is assigned to the function helloworld
+
 
 
 
