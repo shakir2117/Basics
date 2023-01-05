@@ -29,5 +29,4 @@
 #
 # print(f"the string after the removal of i'th character from '{string}': "+ new_string)
 
-#
 
