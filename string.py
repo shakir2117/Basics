@@ -30,3 +30,22 @@
 # print(f"the string after the removal of i'th character from '{string}': "+ new_string)
 
 
+#Program to check if a string contains any special character
+
+# n="bbfkadfjad"
+# n.split()
+# c=0
+# s='[@_!#$%^&*()<>?/\|}{~:]'
+# for i in range(len(n)):
+#     if n[i] in s:
+#         c+=1
+# if c:
+#     print("string is not accepted")
+# else:
+#     print("string accepted")
+
+
+#Find all duplicate characters in string
+
+#
+# ask the latin sir about it
