@@ -1,10 +1,33 @@
-# Extract Unique values dictionary values
-test_dict={
-    'abc':[1,2,3,4],
-    'def':[5,6,7,8],
-    'ghi':[9,0,10]
+dict={
+    'abc':100,
+    'def':200,
+    'ghi':200
 }
 
-print("the org Dictionary is: ",str(test_dict))
+print("the org Dictionary is: ", str(dict))
+
+
+# def returnSum(myDict):
+#     list = []
+#     for i in myDict:
+#         list.append(myDict[i]) #add my dict to list
+#     final = sum(list)
+#
+#     return final
+#
+# print("Sum :", returnSum(dict))
+
+#remove key
+
+del dict['abc']
+print(f"the dictionary after the deletion of key {dict} :")
+
+#add key
+dict['abc']=100
+print(f"the dictionary after the addtion of key{dict} ")
+
+#merge dict
+
+
 
 
